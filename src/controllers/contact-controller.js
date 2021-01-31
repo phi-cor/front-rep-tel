@@ -1,14 +1,17 @@
 import React from 'react';
+import ContactModel from '../models/contact-model';
 import ContactList from "../components/contacts/contact-list";
 import ContactService from "../services/contact-service"
 export default class ContactController extends React.Component {
 
-  constructor(props) {
-    super(props);
+  constructor() {
+    super();
     this.contactListState = true;
     this.contactService = new ContactService();
-    this.list;
+    this.contactList=[new ContactModel("Carrey","Marie","1222334455","1"),
+    new ContactModel("Sims","Albert","4222334455","2")];
 
+    console.log(this.contactList);
   }
 
 
@@ -30,16 +33,14 @@ export default class ContactController extends React.Component {
   
   }
   */
-  componentDidMount() {
-    () => { this.list = this.contactService.getContactList(); }
-  }
+  
 
   render() {
 
 
-    console.log(this.list);
+    
     return (
-      <ContactList contactList={this.list}></ContactList>
+      <ContactList contactList={this.contactList}></ContactList>
 
     );
   }
