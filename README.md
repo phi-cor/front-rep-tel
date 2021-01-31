@@ -18,7 +18,7 @@ Please install dependencies with the command-line and start the server.
     npm start
 
 
-local server url:
+local server url: http://localhost:3500
 
 
 ## Front
