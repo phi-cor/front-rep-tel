@@ -15,6 +15,7 @@ Api and Front require NodeJS.
 Please install dependencies with the command-line and start the server.
 
     npm install
+    cd api-rep-tel
     npm start
 
 
@@ -28,6 +29,7 @@ local server url: http://localhost:3500
 Please install dependencies and start the server.
 
     npm install
+    cd front-rep-tel
     npm start
 
 
