@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import ContactList from './components/contact-list';
+import ContactList from './components/contacts/contact-list';
+import ContactController from './controllers/contact-controller';
 
 class Board extends React.Component {
  
@@ -12,7 +13,7 @@ class Board extends React.Component {
     return (
       
       <div>
- <ContactList/>
+ <ContactController/>
       </div>
       
     );
