@@ -10,7 +10,7 @@ Api and Front require NodeJS.
 
 ## Api
 
-git clone https://github.com/phi-cor/front-rep-tel.git
+    git clone https://github.com/phi-cor/front-rep-tel.git
 
 Please install dependencies with the command-line and start the server.
 
